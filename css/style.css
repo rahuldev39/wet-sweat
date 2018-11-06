@@ -1,0 +1,403 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
+  background-color: #e6e6e6;
+}
+
+hr {
+  max-width: 50px;
+  border-width: 3px;
+  border-color: #F05F40;
+}
+
+hr.light {
+  border-color: #fff;
+}
+
+a {
+  color: #F05F40;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+a:hover {
+  color: #f05f40;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+}
+
+.bg-primary {
+  background-color: #F05F40 !important;
+}
+
+.bg-dark {
+  background-color: #212529 !important;
+}
+
+.text-faded {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+
+.section-heading {
+  margin-top: 0;
+}
+
+::-moz-selection {
+  color: #fff;
+  background: #212529;
+  text-shadow: none;
+}
+
+::selection {
+  color: #fff;
+  background: #212529;
+  text-shadow: none;
+}
+
+img::-moz-selection {
+  color: #fff;
+  background: transparent;
+}
+
+img::selection {
+  color: #fff;
+  background: transparent;
+}
+
+img::-moz-selection {
+  color: #fff;
+  background: transparent;
+}
+.container {
+    padding: 0px;
+}
+#mainNav {
+    padding: 25px 0px;
+    padding-bottom: 38px;
+}
+
+#mainNav .navbar-brand {
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #F05F40;
+  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+  padding: 0px
+}
+
+#mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
+  color: #f05f40;
+}
+
+#mainNav .navbar-nav > li.nav-item > a.nav-link,
+#mainNav .navbar-nav > li.nav-item > a.nav-link:focus {
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #212529;
+}
+
+#mainNav .navbar-nav > li.nav-item > a.nav-link:hover,
+#mainNav .navbar-nav > li.nav-item > a.nav-link:focus:hover {
+  color: #F05F40;
+}
+
+#mainNav .navbar-nav > li.nav-item > a.nav-link.active,
+#mainNav .navbar-nav > li.nav-item > a.nav-link:focus.active {
+  color: #F05F40 !important;
+  background-color: transparent;
+}
+
+#mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover,
+#mainNav .navbar-nav > li.nav-item > a.nav-link:focus.active:hover {
+  background-color: transparent;
+}
+.navbar-light .navbar-toggler {
+    color: rgba(0,0,0,.5);
+    border-color: rgba(255, 255, 255, 0.1);
+    color: #fffefeb5;
+}
+.overlay
+{
+  height: 222px;
+  width: 100%;
+  background: linear-gradient(127deg, #067A89 0%, #09373D 100%);
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1
+}
+.navbar-brand img{
+
+}
+
+.performence-section {
+    /* height: 369px; */
+    background-color: #FCFCFC;
+    border-radius: 2px;
+    background-image: url(./../img/Illustration-MAVS-Gym.png);
+    background-position: left bottom;
+    background-repeat: no-repeat;
+    padding: 48px 74px;
+    padding-bottom: 35px;
+    margin-bottom: 54px;
+
+}
+
+
+.title {
+    color: #333333;
+    font-family: 'Oswald', sans-serif;
+    font-size: 18px;
+    font-weight: 900;
+    letter-spacing: 1.5px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 45px;
+}
+.check-in-container{
+
+}
+.check-in-container h1{
+  color: #333333;
+    font-family: 'Oswald', sans-serif;
+    font-size: 144px;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    margin-bottom: 27px;
+    text-align: center;
+    line-height: 125px;
+}
+.check-in-container h5 {
+    color: #333333;
+    font-family: 'Oswald', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    line-height: 26px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.list-heading{
+  color: #333333;
+  font-family: 'Oswald', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: 1.5px;
+  line-height: 26px;
+}
+.list-container ul, .member-activity-list-container ul{
+  padding: 0px;
+  list-style-type: none;
+}
+.list-container ul li, .member-activity-list-container ul li{
+  color: rgba(51,51,51,0.5);
+  font-family: 'Oswald', sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  line-height: 17px;
+  padding: 20px 10px;
+  border-bottom: 1px solid #e6e6e6;
+  text-transform: uppercase;
+  text-align: left;
+}
+.table-header h4{
+ color: #333333;
+ font-family: 'Oswald', sans-serif;
+ font-size: 18px;
+ font-weight: 700;
+ letter-spacing: 1.5px;
+ line-height: 26px;
+ text-transform: uppercase;
+ margin-bottom: 30px
+}
+.table-section .table th{
+  background: #dcdcdc;
+  color: #153348;
+  font-family: 'Oswald', sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  line-height: 28px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.table-section .table tbody{
+  background-color: white
+}
+.table-section .table td{
+  color: #153348;
+  font-family: "Open Sans";
+  font-size: 14px;
+  line-height: 28px;
+  text-align: center;
+  border-top: 0px
+}
+.drop-btn {
+  font-size: 10px;
+    color: #067a89;
+}
+.drop-btn.open{
+  transform: rotate(90deg);
+  transform-origin: center;
+}
+.open-row{
+  background-color: #f2f2f2;
+
+}
+.open-row td{
+  padding: 0px;
+}
+.open-row .open-row-inner {
+    padding-top: 50px;
+    padding-bottom: 34px;
+    padding-left: 20px;
+    padding-right: 80px;
+}
+.members-humb-container .member-thumb-view{
+  padding: 10px;
+  background-color: white;
+  border-radius: 2px;
+  height: 100%
+}
+.members-humb-container .member-detail span{
+color: rgba(51,51,51,0.5);
+font-family: "Open Sans";
+font-size: 12px;
+line-height: 17px;
+text-align: center;
+display: block;
+margin-bottom: 5px
+}
+.members-humb-container .member-detail span.m-name{
+  color: #333333;
+}
+.member-img img{
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  margin-bottom: 20px
+}
+.footer{
+  padding: 15px 0
+}
+.footer p{
+	color: #333333;
+  font-family: 'Oswald', sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  line-height: 17px;
+  text-align: right;
+  text-transform: uppercase;
+}
+@media (min-width: 1200px)
+{
+  .container {
+      max-width: 940px;
+      padding: 0px;
+  }
+}
+@media (min-width: 992px) {
+  .navbar-collapse{
+    margin-top: -20px
+  }
+  #mainNav {
+    border-color: transparent;
+    background-color: transparent;
+  }
+  #mainNav .navbar-brand {
+    color: rgba(255, 255, 255, 0.7);
+  }
+  #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
+    color: #fff;
+  }
+    #mainNav .navbar-nav > li.nav-item{
+    padding-left: 20px
+    }
+    #mainNav .navbar-nav > li.nav-item > a.nav-link {
+      padding: 6px 2px;
+      font-family: 'Oswald', sans-serif;
+      font-size: 18px;
+      font-weight: 600;
+      letter-spacing: 1.45px;
+      position: relative;
+      padding-top: 0px;
+  }
+#mainNav .navbar-nav > li.nav-item.active > a.nav-link{
+  color: rgba(255, 255, 255, 1);
+}
+#mainNav .navbar-nav > li.nav-item.active > a.nav-link::after
+{
+  content: "";
+  position: absolute;
+  box-sizing: border-box;
+  height: 5px;
+  width: 100%;
+  background-color: #FFFFFF;
+  bottom:2px;
+  left: 0px
+}
+  #mainNav .navbar-nav > li.nav-item > a.nav-link,
+  #mainNav .navbar-nav > li.nav-item > a.nav-link:focus {
+    color: rgba(255, 255, 255, 0.5);
+  }
+  #mainNav .navbar-nav > li.nav-item > a.nav-link:hover,
+  #mainNav .navbar-nav > li.nav-item > a.nav-link:focus:hover {
+    color: #fff;
+  }
+  #mainNav.navbar-shrink {
+    border-bottom: 1px solid rgba(33, 37, 41, 0.1);
+    background-color: #fff;
+  }
+  #mainNav.navbar-shrink .navbar-brand {
+    color: #F05F40;
+  }
+  #mainNav.navbar-shrink .navbar-brand:focus, #mainNav.navbar-shrink .navbar-brand:hover {
+    color: #f05f40;
+  }
+  #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link,
+  #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:focus {
+    color: #212529;
+  }
+  #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:hover,
+  #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:focus:hover {
+    color: #F05F40;
+  }
+}
+
+@media (max-width: 992px) {
+  .navbar-nav {
+    background-color: #fcfcfc;
+    border-radius: 2px;
+    max-width: 200px;
+}
+  #mainNav .navbar-nav > li.nav-item > a.nav-link, #mainNav .navbar-nav > li.nav-item > a.nav-link:focus {
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #096571;
+    font-family: 'Oswald', sans-serif;
+    font-size: 14px;
+    padding: 7px 8px;
+    border-bottom: 1px solid #094a520f;
+}
+}
+@media (max-width: 768px) {
+  .performence-section {
+      background-position: left top;
+
+  }
+}
